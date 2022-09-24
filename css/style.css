@@ -6,3 +6,9 @@
 .navbar-brand{
     color: white !important;
 }
+
+#submitButton{
+    background-color: #008080;
+    border: none;
+    color: white;
+}
