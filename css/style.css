@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+*{
+    font-family: 'Overpass', sans-serif !important;
+}
+
 .navbar{
     background-color: #008080;
     color: white !important;
@@ -5,6 +11,9 @@
 
 .navbar-brand{
     color: white !important;
+    font-size: 28px;
+    font-weight: bolder;
+    letter-spacing: 6px;
 }
 
 #submitButton{
