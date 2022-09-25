@@ -20,6 +20,7 @@ const onGenerateSubmit = (e) => {
 
             setTimeout( () => {
                 const saveUrl = qr.querySelector("img").src;
+                qr.querySelector("img").classList.add("qrImg");
                 createSaveBtn(saveUrl);
             }, 50);
         }, 1000);

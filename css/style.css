@@ -6,7 +6,6 @@
 
 .navbar{
     background-color: #008080;
-    color: white !important;
 }
 
 .navbar-brand{
@@ -20,4 +19,58 @@
     background-color: #008080;
     border: none;
     color: white;
+}
+
+.mainContent{
+    text-align: center;
+}
+
+.title{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+main{
+    margin: 20px;
+}
+
+.imgQR{
+    width: 400px;
+}
+
+footer{
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footerLink{
+    color: white;
+    text-decoration: none;
+}
+
+.footerLink:hover{
+    color: white;
+}
+
+.siteLogo{
+    width: 140px;
+}
+
+.colText{
+    text-align: left !important;
+}
+
+.colImg{
+    text-align: right !important;
+}
+
+#generate-form{
+    text-align: center;
+}
+
+.qrImg{
+    margin: auto;
 }

@@ -22,9 +22,19 @@
     </header>
 
     <main>
-        <h1>Gerador de QRCodes</h1>
-        <p>Os Códigos QR permitem aos utilizadores de smartphones aceder ao seu website de forma simples e rápida.</p>
-        <p>Introduza o seu URL abaixo para gerar o Código QR e descarregue a imagem.</p>
+
+        <div class="container mainContent">
+            <div class="row">
+              <div class="col-sm colText">
+                <h1 class="title">Gerador de QRCodes</h1>
+                <p>Os Códigos QR permitem aos utilizadores de smartphones aceder ao seu website de forma simples e rápida.</p>
+                <p>Introduza o seu URL abaixo para gerar o Código QR e descarregue a imagem.</p>
+              </div>
+              <div class="col-sm colImg">
+                <img class="imgQR" src="img/qr.jpg" alt="" srcset="">
+              </div>
+            </div>
+        </div>
 
         <form id="generate-form">
             <input type="url" id="url" placeholder="Introduza um URL">
@@ -42,14 +52,21 @@
 
 
         <!-- Generated QR Code -->
-        <div id="generated">
+        <div id="generated" class="text-center">
             <!-- QR Code output -->
-            <div id="qrcode">
+            <div id="qrcode" class="text-center mx-auto d-block">
 
             </div>
         </div>
 
     </main>
+
+    <footer>
+        <a href="https://marioponte.github.io/Portfolio/" target="_blank" class="footerLink">
+            <img class="siteLogo" src="img/logobranco.png" alt="" srcset="">
+            <p>&copy; Todos os direitos reservados a Mário Ponte</p>
+        </a>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
