@@ -37,22 +37,32 @@
         </div>
 
         <form id="generate-form">
-            <input type="url" id="url" placeholder="Introduza um URL">
-            <select id="size">
-                <option value="100">100x100</option>
-                <option value="200">200x200</option>
-                <option value="300" selected>300x300</option>
-                <option value="400">400x400</option>
-                <option value="500">500x500</option>
-                <option value="600">600x600</option>
-                <option value="700">700x700</option>
-            </select>
+            <div>
+                <input type="url" id="url" placeholder="Introduza um URL">
+            </div>
+            <div>
+                <select id="size">
+                    <option value="100">100x100</option>
+                    <option value="200">200x200</option>
+                    <option value="300" selected>300x300</option>
+                    <option value="400">400x400</option>
+                    <option value="500">500x500</option>
+                    <option value="600">600x600</option>
+                    <option value="700">700x700</option>
+                </select>
+            </div>
             <button id="submitButton" type="submit">Gerar QR Code</button>
         </form>
 
 
         <!-- Generated QR Code -->
         <div id="generated" class="text-center">
+
+            <!-- Spinner -->
+            <div id="spinner" role="status">
+                <img src="img/loading.svg" alt="" srcset="">
+            </div>
+
             <!-- QR Code output -->
             <div id="qrcode" class="text-center mx-auto d-block">
 
@@ -64,7 +74,7 @@
     <footer>
         <a href="https://marioponte.github.io/Portfolio/" target="_blank" class="footerLink">
             <img class="siteLogo" src="img/logobranco.png" alt="" srcset="">
-            <p>&copy; Todos os direitos reservados a Mário Ponte</p>
+            <p>&copy; Todos os direitos reservados a Mário Ponte - 2022</p>
         </a>
     </footer>
 

@@ -12,10 +12,10 @@ const onGenerateSubmit = (e) => {
     if(url === ""){
         alert("Introduza um URL");
     }else{
-        // showSpinner();
+        showSpinner();
 
         setTimeout( () => {
-            //hideSpinner();
+            hideSpinner();
             generateQRCode(url, size);
 
             setTimeout( () => {
@@ -36,8 +36,6 @@ const generateQRCode = (url, size) => {
     });
 }
 
-/*
-
 const showSpinner = () => {
     document.getElementById("spinner").style.display = "block";
 }
@@ -47,8 +45,6 @@ const hideSpinner = () => {
 }
 
 hideSpinner();
-
-*/
 
 const clearUI = () => {
     qr.innerHTML = "";
