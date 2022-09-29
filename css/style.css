@@ -2,6 +2,15 @@
     outline-color: #006868;
 }
 
+::selection{
+    background-color: #006868;
+    color: white;
+}
+
+strong{
+    color: #006868;
+}
+
 .navbar{
     background-color: #008080;
 }
@@ -24,9 +33,10 @@
 }
 
 .title{
-    font-size: 60px;
+    font-size: 68px;
     text-transform: uppercase;
     font-weight: bolder;
+    color: #008080;
 }
 
 main{
@@ -59,6 +69,7 @@ footer{
 
 .colText{
     text-align: left !important;
+    font-size: 20px;
 }
 
 .colImg{
@@ -79,6 +90,7 @@ footer{
 
 #submitButton{
     font-size: 20px;
+    font-weight: 600;
     margin-bottom: 20px;
     padding: 0px 20px 0px 20px;
     border: 2px solid #008080;
@@ -130,4 +142,30 @@ footer{
 #save-link:hover{
     background-color: #008080;
     color: white;
+}
+
+@media only screen and (max-width: 991px) {
+    .colImg{
+      text-align: center !important;
+    }
+
+    .colText{
+        font-size: 16px !important;
+      }
+
+    .imgQR{
+        width: 310px;
+    }
+
+    .title{
+        font-size: 50px;
+    }
+
+    .siteLogo{
+        width: 84px;
+    }
+
+    footer{
+        font-size: 10px;
+    }
 }
