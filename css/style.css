@@ -169,3 +169,27 @@ footer{
         font-size: 10px;
     }
 }
+
+@media only screen and (max-width: 455px) {
+    #url{
+        width: 86vw;
+    }
+    #size{
+        width: 86vw;
+    }
+    #submitButton{
+        width: 86vw;
+    }
+
+    .imgQR{
+        width: 64vw;
+    }
+
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    .title{
+        font-size: 34px;
+    }
+}
