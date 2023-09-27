@@ -126,6 +126,10 @@ footer{
     cursor: pointer;
 }
 
+#saveQRCode{
+    margin: 20px;
+}
+
 #save-link{
     font-size: 20px;
     margin-bottom: 20px;

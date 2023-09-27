@@ -58,7 +58,7 @@ const createSaveBtn = (saveUrl) => {
     link.href = saveUrl;
     link.download = "qrcode";
     link.innerHTML = "Salvar Imagem";
-    document.getElementById("generated").appendChild(link);
+    document.getElementById("saveQRCode").appendChild(link);
 }
 
 form.addEventListener("submit", onGenerateSubmit);
